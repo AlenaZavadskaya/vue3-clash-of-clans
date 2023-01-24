@@ -23,4 +23,8 @@
   &.router-link-exact-active {
     text-decoration: underline;
   }
+  &.link__card {
+    display: block;
+    margin-top: 16px;
+  }
 }
