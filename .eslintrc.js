@@ -16,5 +16,6 @@ module.exports = {
     'import/extensions': 0,
     'linebreak-style': 0,
     'global-require': 0,
+    'consistent-return': 'off',
   },
 };

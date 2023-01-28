@@ -21,6 +21,7 @@ time, mark, audio, video {
 // Links
 a {
   text-decoration: none;
+  -webkit-user-drag: none;
   &:active, &:hover {
     outline: 0;
   }
@@ -41,7 +42,7 @@ html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: border-box; }
 :focus { outline: 0; }
 
-img, audio, video { max-width: 100%; height: auto; }
+img, audio, video { max-width: 100%; height: auto; user-select: none;}
 audio, canvas, iframe, video, img, svg { vertical-align: middle; }
 iframe { border: 0 }
 

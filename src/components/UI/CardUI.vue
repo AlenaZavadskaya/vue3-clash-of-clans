@@ -1,18 +1,18 @@
 <template>
-  <div class="card">
-    <div v-if="imgUrl" class="card-img__wrapper">
-      <img class="card-img" :src="imgUrl" :alt="title" />
+  <article class="card">
+    <div v-if="imgUrl" class="card__img-wrapper">
+      <img class="card__img" :src="imgUrl" :alt="title" />
     </div>
-    <span class="card-name">{{ name }}</span>
-    <span class="card-title">{{ title }}</span>
-    <div class="card-body">
+    <span class="card__name">{{ name }}</span>
+    <span class="card__title">{{ title }}</span>
+    <div class="card__body">
       <slot name="body"></slot>
-      <router-link v-if="link" :to="link" class="link link__card"
+      <router-link v-if="link" :to="link" class="link card__link"
         >See more</router-link
       >
     </div>
     <slot name="footer"></slot>
-  </div>
+  </article>
 </template>
 
 <script>

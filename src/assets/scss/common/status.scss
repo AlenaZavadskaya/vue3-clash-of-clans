@@ -1,10 +1,10 @@
 .status {
-  margin-right: 10px;
+  margin-right: 1rem;
   &:before {
     display: inline-block;
     content: '\A';
-    width: 10px;
-    height: 10px;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
   }
   &.false {

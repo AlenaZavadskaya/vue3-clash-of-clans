@@ -1,11 +1,10 @@
 .title {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   color: #333333;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 700;
 
-  &.title__alias {
+  &__alias {
     color: #fff;
-
   }
 }

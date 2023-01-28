@@ -1,0 +1,22 @@
+.carousel {
+  padding: 0;
+
+  &__viewport {
+    padding: 2rem 0;
+  }
+
+  &__prev,
+  &__next {
+    background-color: #ec9b3b;
+    border-radius: 50%;
+    margin: 0;
+  }
+
+  &__prev {
+    left: -3rem;
+  }
+
+  &__next {
+    right: -3rem;
+  }
+}
